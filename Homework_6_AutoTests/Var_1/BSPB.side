@@ -1,0 +1,259 @@
+{
+  "id": "d5aee9f1-e03d-4edd-ae51-75c8ddf59293",
+  "version": "2.0",
+  "name": "BSPB",
+  "url": "https://idemo.bspb.ru/",
+  "tests": [{
+    "id": "82a05cd4-1ade-46d4-862b-b2ae447d6b49",
+    "name": "Login",
+    "commands": [{
+      "id": "bc4df7b3-8b81-485f-8cf2-c2000286b9f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://idemo.bspb.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25b86a0c-dad9-4fcb-bd80-e8fd3728af08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1400x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "405cf1ca-ba85-438e-a417-569f70ea2c75",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-control:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "demo"
+    }, {
+      "id": "e53703ed-d3c8-48a4-b5a8-5ed4020bf8c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3916e253-e884-4e89-99be-924491b39890",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-control:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "demo"
+    }, {
+      "id": "9b391189-de0c-4d9f-84be-9781086a65bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2cb6441-ffc7-4426-84ac-40a4aa0d6b0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d325e355-77b4-4ba8-a7e4-ef8d05492e9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "0000"
+    }, {
+      "id": "644380b9-2594-4be0-85d2-29c0f38eaa01",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-otp-button",
+      "targets": [
+        ["id=login-otp-button", "id"],
+        ["css=#login-otp-button", "css:finder"],
+        ["xpath=//button[@id='login-otp-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b90a5861-b67d-486f-9f92-e4c12f2cc037",
+    "name": "Change_client",
+    "commands": [{
+      "id": "32c5eec0-1ffb-4a63-a4b2-d20a54a321ff",
+      "comment": "",
+      "command": "open",
+      "target": "https://idemo.bspb.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "789209ef-6ccb-443e-8d65-7b8bbc8e4a2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1400x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b49e0b6-d3e5-4cb9-aaa5-769c54c72c15",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-control:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "demo"
+    }, {
+      "id": "7bab2643-05e8-4794-9510-b09e7d4c2ad4",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df4d8be1-4c2e-488f-b615-6afa5b65c365",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-control:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "demo"
+    }, {
+      "id": "021a057b-2c66-4baa-8d77-5c0087259989",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0808b4a-f7ef-479a-a402-d6bca47c2f48",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb403b0e-7f2b-41b6-94fa-299a6ab328b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "0000"
+    }, {
+      "id": "25e5593d-7816-4f2d-83e5-cc888f5c26a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-otp-button",
+      "targets": [
+        ["id=login-otp-button", "id"],
+        ["css=#login-otp-button", "css:finder"],
+        ["xpath=//button[@id='login-otp-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a2b9acb-534c-43c5-ba2b-b1aec8d5fcbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-option",
+      "targets": [
+        ["css=.filter-option", "css:finder"],
+        ["xpath=//div[@id='representee-list']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf47cd6-8e52-4cfc-a2fa-403a13af2030",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .text",
+      "targets": [
+        ["css=.active .text", "css:finder"],
+        ["xpath=//div[@id='representee-list']/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2808462-df00-49ef-9a80-879f53e3389a",
+      "comment": "",
+      "command": "click",
+      "target": "id=close-alerts-dialog",
+      "targets": [
+        ["id=close-alerts-dialog", "id"],
+        ["linkText=Закрыть", "linkText"],
+        ["css=#close-alerts-dialog", "css:finder"],
+        ["xpath=//a[contains(text(),'Закрыть')]", "xpath:link"],
+        ["xpath=//a[@id='close-alerts-dialog']", "xpath:attributes"],
+        ["xpath=//div[@id='alerts-modal']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b089aa99-52bb-46ce-b19d-3d6e1fcc3b76",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82a05cd4-1ade-46d4-862b-b2ae447d6b49"]
+  }],
+  "urls": ["https://idemo.bspb.ru/"],
+  "plugins": []
+}
